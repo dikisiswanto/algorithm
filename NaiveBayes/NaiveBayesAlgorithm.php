@@ -77,7 +77,7 @@
 			foreach ($this->data as $item) {
 				$data[] = $item[$var_label];
 			}
-			return array_keys(array_count_values($data));
+			return array_unique($data);
 		}
 
 		protected function _get_data_by_class_and_var($var_label, $class_label)

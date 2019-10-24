@@ -1,4 +1,4 @@
-age,income,student,credit,credit_rating,buy_computer
+age,income,student,credit_rating,buy_computer
 0,2,0,0,0
 0,2,0,1,0
 1,2,0,0,1

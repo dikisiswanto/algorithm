@@ -1,7 +1,7 @@
 <?php 
  class KnnAlgorithm  
  {
-	 public static function KnnClassify($data_training, $data_testing, $k)
+	 public static function classify($data_training, $data_testing, $k)
 	 {
 		 $distance = array();
 		 foreach ($data_training as $item) {
@@ -43,6 +43,6 @@
 //  jumlah k terdekat yang dikehendaki
  $k = 3;
  print("Berdasarkan algoritma KNN, data training yang diinput masuk ke kelas ");
- print(KnnAlgorithm::KnnClassify(DATA_TRAINING, $data_testing, $k));
+ print(KnnAlgorithm::classify(DATA_TRAINING, $data_testing, $k));
  
 ?>

@@ -1,7 +1,7 @@
 <?php 
 /**
  * age (0 : <= 30, 1 : > 30 && <= 40, 2: > 40)
- * income (0: low, 1: medium, 2: height)
+ * income (0: low, 1: medium, 2: high)
  * student (0: no, 1: yes)
  * credit_rating (0: fair, 1: excellent)
  * buy_computer (0: no, 1; yes)

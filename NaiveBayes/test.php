@@ -28,7 +28,7 @@ foreach ($data_temp as $item ) {
 	$data[] = array_replace($item, array(AGE[$item[0]], INCOME[$item[1]], STUDENT[$item[2]], CREDIT_RATING[$item[3]], BUY_COMPUTER[$item[4]]));
 }
 
-$data_testing = array("<=30", "medium", "yes", "fair");
+$data_testing = array("31...40", "high", "yes", "fair");
 
 $nb = new NaiveBayesAlgorithm($data, $var);
 print_r($nb->calculate()->predict($data_testing, $var));
